@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum Mg 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="scroll">
+          <h2><a href="#">eng.</a></h2>
+          <ul class="navContainer">
+            <li><a href="#tentangSaya">Tentang saya</a></li>
+            <li><a href="#pengalamanSaya">Pengalaman</a></li>
+            <li><a href="#hubungiSaya">Hubungi saya</a></li>
+          </ul>
+          <div class="humberger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+        <article>
+          <img src="img/pp fb.jpg" alt="profile picture" />
+          <section>
+            <h1>Hai saya Muhammad Muslim</h1>
+            <p>Saya adalah seorang manusia biasa yang menjadi makhluk sosial.</p>
+          </section>
+        </article>
+      </header>
+
+      <main>
+        <div class="row">
+          <article id="tentang">
+            <h2 id="tentangSaya">Tentang saya</h2>
+            <p>
+              Nama saya Muhammad Muslim, sekarang saya sedang belajar
+              HTML. Saya sangat suka dengan teknologi dan saya ingin menjadi
+              seorang programmer.
+            </p>
+
+            <figure>
+              <figcaption>Video saya</figcaption>
+              <iframe
+                width="320"
+                height="200"
+                src="https://www.youtube.com/embed/f0RQrs8x7Hs?controls=0"
+                title="YouTube video player"
+                allowfullscreen
+              ></iframe>
+            </figure>
+          </article>
+
+          <article id="pengalaman">
+            <h2 id="pengalamanSaya">Pengalaman</h2>
+            <div class="box">
+              <p class="no">1</p>
+              <p class="pengalaman">Ketua Divisi Ketuhanan Yang Maha Esa</p>
+              <p class="tahun">2019</p>
+            </div>
+            <div class="box">
+              <p class="no">2</p>
+              <p class="pengalaman">Staff Seni Olahraga HMIF ITERA</p>
+              <p class="tahun">2021 - Sekarang</p>
+            </div>
+          </article>
+        </div>
+
+        <article id="hubungi">
+          <h2 id="hubungiSaya">Hubungi saya</h2>
+          <form action="">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+            <input type="submit" value="Kirim" />
+          </form>
+        </article>
+      </main>
+      <footer>
+        <p>&copy; 2022 <a href="https://github.com/limnwhyy/"> limnwhyy </a></p>
+        <p>
+          muhammad.120140008@student.itera.ac.id | Muhammad Muslim |
+          +62-853-xxxx-xxxx
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
